@@ -1,5 +1,5 @@
 德州1对1的AI，德州AI人工智能；MasterAI-2.0-1vs1-NoLimit，AI源代码和训练模型；联系Telegram：@xuzongbin001或E-mail：masterai918@gmail.com;Mchat：xuzongbin001
-德州AI，德州AI源码，德州扑克源码。德州游戏源码，德州俱乐部源码，里面有多种德州玩法.。联系Tg：@xuzongbin001；德州俱乐部+私人局+联盟，产品质量远超wpk和hhpoke德扑圈，1:1，usdt支付，游戏：德州扑克/6+短牌/奥马哈/大菠萝/MTT/SNG/AOF/德州牛仔
+德州AI，德州AI源码，德州扑克源码。德州游戏源码，德州俱乐部源码，里面有多种德州玩法.。联系Tg：@xuzongbin001
 ## Introduction
 
 MasterAI v2.0 is an iterative algorithm derived from MasterAI v1.0 
