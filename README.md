@@ -1,6 +1,6 @@
 markdown
 “Not for illegal gambling. For research only
-# ♠️ MasterAI v3.0 |德州扑克AI系统（CFR + 强化学习 + 深度神经网络）|德州AI |德州最强AI |德州源码| 一对多无限注德州扑克最强AI|poker bot  | game theory AI
+# ♠️ MasterAI v3.0 |德州扑克AI系统（CFR + 强化学习 + 深度神经网络）|德州AI |德州最强AI |德州源码| 一对多无限注德州扑克最强AI|poker bot  AI| game theory AI
 
 > **基于强化学习 + CFR + 深度神经网络 | 在非完美信息博弈中达到超人水平 | 研究用途，禁止用于非法赌博**
 
