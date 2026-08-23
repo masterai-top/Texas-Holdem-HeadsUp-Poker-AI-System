@@ -1,6 +1,6 @@
 markdown
 “Not for illegal gambling. For research only
-# ♠️ MasterAI v3.0 |德州扑克AI系统（CFR + 强化学习 + 深度神经网络）|德州AI |德州AI模型|德州扑克AI研究项目 |德州源码| 一对多无限注德州扑克最强AI|poker bot  AI| game theory AI
+# ♠️ MasterAI v3.0 |德州扑克AI系统（CFR + 强化学习 + 深度神经网络）|德州AI |德州AI模型|德州扑克AI研究项目 |德州||poker bot  AI| game theory AI
 
 > **基于强化学习 + CFR + 深度神经网络 | 在非完美信息博弈中达到超人水平 | 研究用途，禁止用于非法赌博**
 
@@ -22,7 +22,8 @@ MasterAI v3.0 是一个**超人类水平**的**一对多无上限德州扑克（
 - **深度神经网络（Deep Neural Networks）**：评估博弈状态与行动价值
 - **自我博弈强化学习（Self-Play Reinforcement Learning）**：通过自我对弈持续进化
 
-**历史战绩**：MasterAI v1.0 战胜 **14位中国顶级职业扑克选手**。v3.0 在训练效率和决策质量上均有大幅提升。
+**MasterAI v1.0 在外部测试中与多名高水平人类玩家进行了对局，用于评估策略收敛性与胜率表现。**
+**MasterAI v3.0 在训练效率和决策质量上均有大幅提升**
 
 ## 🧠 核心技术 | Core Technology
 
@@ -123,14 +124,10 @@ python run.py --self_play --hands 100
 - **内存占用**：400BB博弈树约 8GB
 - **收敛速度**：自我博弈约2周后逼近纳什均衡
 
-### 项目下载包含内容
-
-✅ MasterAI v3.0 源代码（Python + C++）  
-✅ 训练好的神经网络模型  
-✅ 部署脚本与文档  
 
 
-📷 **技术架构图** – 
+
+📷 **产品说明** – 
  ![微信图片_20241030103018](https://github.com/user-attachments/assets/a68c45e7-a4f5-4241-a85d-0a9cb7a85546)
  <img width="340" height="536" alt="微信图片_20260320173255" src="https://github.com/user-attachments/assets/66851632-7b29-4fc3-a35c-76dee4e5930d" />
 <img width="1050" height="706" alt="微信图片_20241030103520" src="https://github.com/user-attachments/assets/5fa3a0e8-0326-48a1-944a-bf497f0027ac" />
@@ -140,8 +137,8 @@ python run.py --self_play --hands 100
 
 
 
-### 技术沟通
-
+###  问题反馈与交流
+仅限学术与技术交流
 - **Telegram**：[@xuzongbin001](https://t.me/xuzongbin001)
 - **Email**：masterai918@gmail.com
 - **相关项目**：[TexasHoldem-Poker-Complete-Solution](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
