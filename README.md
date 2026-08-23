@@ -4,7 +4,7 @@ markdown
 
 > **基于强化学习 + CFR + 深度神经网络 | 在非完美信息博弈中达到超人水平 | 研究用途，禁止用于非法赌博**
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)技术沟通学习
 [![Stars](https://img.shields.io/github/stars/masterai-top/MasterAI-Poker-CFR?style=social)](https://github.com/masterai-top/MasterAI-Poker-CFR)
 [![C++](https://img.shields.io/badge/C++-57.4%25-blue)](https://isocpp.org/)
 [![Python](https://img.shields.io/badge/Python-36.2%25-green)](https://python.org/)
@@ -129,12 +129,6 @@ python run.py --self_play --hands 100
 ✅ 训练好的神经网络模型  
 ✅ 部署脚本与文档  
 
-
-## 🧪 演示与可视化 | Demo & Visualization
-
-- AI vs AI 模拟（文本输出）
-- 手牌历史回放系统
-- 下注轮次胜率热力图
 
 📷 **技术架构图** – 
  ![微信图片_20241030103018](https://github.com/user-attachments/assets/a68c45e7-a4f5-4241-a85d-0a9cb7a85546)
