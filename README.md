@@ -1,6 +1,6 @@
 markdown
 “Not for illegal gambling. For research only
-# ♠️ MasterAI v3.0 |德州扑克AI系统（CFR + 强化学习 + 深度神经网络）|德州AI |德州AI模型|德州辅助软件|德州最强AI |德州源码| 一对多无限注德州扑克最强AI|poker bot  AI| game theory AI
+# ♠️ MasterAI v3.0 |德州扑克AI系统（CFR + 强化学习 + 深度神经网络）|德州AI |德州AI模型|德州辅助软件 |德州源码| 一对多无限注德州扑克最强AI|poker bot  AI| game theory AI
 
 > **基于强化学习 + CFR + 深度神经网络 | 在非完美信息博弈中达到超人水平 | 研究用途，禁止用于非法赌博**
 
@@ -129,7 +129,7 @@ python run.py --self_play --hands 100
 - 手牌历史回放系统
 - 下注轮次胜率热力图
 
-📷 **技术架构图** – 联系获取详细技术白皮书
+📷 **技术架构图** – 
  ![微信图片_20241030103018](https://github.com/user-attachments/assets/a68c45e7-a4f5-4241-a85d-0a9cb7a85546)
  <img width="340" height="536" alt="微信图片_20260320173255" src="https://github.com/user-attachments/assets/66851632-7b29-4fc3-a35c-76dee4e5930d" />
 <img width="1050" height="706" alt="微信图片_20241030103520" src="https://github.com/user-attachments/assets/5fa3a0e8-0326-48a1-944a-bf497f0027ac" />
@@ -137,16 +137,15 @@ python run.py --self_play --hands 100
 <img width="379" height="447" alt="微信图片_20241030112757" src="https://github.com/user-attachments/assets/3979385c-cebc-47df-aadf-a317dd3eb021" />
 
 
-## 📬 联系与获取源码 | Contact & Licensing
 
-### 获取完整内容
+### 项目取完整内容
 
 ✅ MasterAI v3.0 完整源代码（Python + C++）  
 ✅ 训练好的神经网络模型  
 ✅ 部署脚本与文档  
-✅ 定制化开发支持
+✅ 技术开发支持
 
-### 联系方式
+### 技术支持
 
 - **Telegram**：[@xuzongbin001](https://t.me/xuzongbin001)
 - **Email**：masterai918@gmail.com
@@ -154,7 +153,7 @@ python run.py --self_play --hands 100
 
 ### 开源协议
 
-本项目采用 **Apache 2.0 协议** – 允许学术研究使用。商业使用需获得作者授权。
+本项目采用 **Apache 2.0 协议** – 允许学术研究使用。
 
 ## 🤝 参与贡献 | Contributing
 
@@ -165,7 +164,7 @@ python run.py --self_play --hands 100
 - 多智能体扩展（6人桌、满员桌）
 - 文档与教程翻译
 
-请通过 Issue 或 PR 与我们交流。
+
 
 ## 📖 引用 | Citation
 
