@@ -22,7 +22,7 @@ MasterAI v3.0 是一个**超人类水平**的**一对多无上限德州扑克（
 - **深度神经网络（Deep Neural Networks）**：评估博弈状态与行动价值
 - **自我博弈强化学习（Self-Play Reinforcement Learning）**：通过自我对弈持续进化
 
-**历史战绩**：MasterAI v1.0 曾战胜 **14位中国顶级职业扑克选手**。v3.0 在训练效率和决策质量上均有大幅提升。
+**历史战绩**：MasterAI v1.0 战胜 **14位中国顶级职业扑克选手**。v3.0 在训练效率和决策质量上均有大幅提升。
 
 ## 🧠 核心技术 | Core Technology
 
@@ -115,7 +115,7 @@ python run.py --self_play --hands 100
 ./train.sh --iterations 1000 --save_model ./my_model.pkl
 ```
 
-> ⚠️ **提示**：完整训练建议使用GPU集群。如需预训练模型，请联系我们获取。
+> ⚠️ **提示**：完整训练建议使用GPU集群。。
 
 ## 📈 性能指标 | Performance Metrics
 
