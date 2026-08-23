@@ -4,7 +4,7 @@ markdown
 
 > **基于强化学习 + CFR + 深度神经网络 | 在非完美信息博弈中达到超人水平 | 研究用途，禁止用于非法赌博**
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)技术沟通学习
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)技术沟通
 [![Stars](https://img.shields.io/github/stars/masterai-top/MasterAI-Poker-CFR?style=social)](https://github.com/masterai-top/MasterAI-Poker-CFR)
 [![C++](https://img.shields.io/badge/C++-57.4%25-blue)](https://isocpp.org/)
 [![Python](https://img.shields.io/badge/Python-36.2%25-green)](https://python.org/)
