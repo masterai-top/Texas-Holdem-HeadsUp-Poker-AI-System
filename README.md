@@ -128,7 +128,7 @@ python run.py --self_play --hands 100
 
 
 📷 **产品说明** – 
- ![微信图片_20241030103018](https://github.com/user-attachments/assets/a68c45e7-a4f5-4241-a85d-0a9cb7a85546)
+
  <img width="340" height="536" alt="微信图片_20260320173255" src="https://github.com/user-attachments/assets/66851632-7b29-4fc3-a35c-76dee4e5930d" />
 <img width="1050" height="706" alt="微信图片_20241030103520" src="https://github.com/user-attachments/assets/5fa3a0e8-0326-48a1-944a-bf497f0027ac" />
 <img width="1080" height="644" alt="640 (1)" src="https://github.com/user-attachments/assets/8cba978a-8a2f-4310-b650-d96adf1dd633" />
