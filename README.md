@@ -1,6 +1,6 @@
 markdown
 “Not for illegal gambling. For research only
-# ♠️ MasterAI v3.0 |德州扑克AI系统（CFR + 强化学习 + 深度神经网络）|德州AI |德州AI模型|德州辅助软件 |德州源码| 一对多无限注德州扑克最强AI|poker bot  AI| game theory AI
+# ♠️ MasterAI v3.0 |德州扑克AI系统（CFR + 强化学习 + 深度神经网络）|德州AI |德州AI模型|德州扑克AI研究项目 |德州源码| 一对多无限注德州扑克最强AI|poker bot  AI| game theory AI
 
 > **基于强化学习 + CFR + 深度神经网络 | 在非完美信息博弈中达到超人水平 | 研究用途，禁止用于非法赌博**
 
@@ -123,6 +123,13 @@ python run.py --self_play --hands 100
 - **内存占用**：400BB博弈树约 8GB
 - **收敛速度**：自我博弈约2周后逼近纳什均衡
 
+### 项目下载包含内容
+
+✅ MasterAI v3.0 源代码（Python + C++）  
+✅ 训练好的神经网络模型  
+✅ 部署脚本与文档  
+
+
 ## 🧪 演示与可视化 | Demo & Visualization
 
 - AI vs AI 模拟（文本输出）
@@ -138,14 +145,8 @@ python run.py --self_play --hands 100
 
 
 
-### 项目取完整内容
 
-✅ MasterAI v3.0 完整源代码（Python + C++）  
-✅ 训练好的神经网络模型  
-✅ 部署脚本与文档  
-✅ 技术开发支持
-
-### 技术支持
+### 技术沟通
 
 - **Telegram**：[@xuzongbin001](https://t.me/xuzongbin001)
 - **Email**：masterai918@gmail.com
@@ -153,7 +154,7 @@ python run.py --self_play --hands 100
 
 ### 开源协议
 
-本项目采用 **Apache 2.0 协议** – 允许学术研究使用。
+本项目采用 **Apache 2.0 协议** 。
 
 ## 🤝 参与贡献 | Contributing
 
@@ -214,4 +215,4 @@ Some technical bottlenecks are encountered when training the algorithm model wit
 
 
 
-The Master team is constantly exploring the innovation of AI algorithm, and hoping that like-minded technical experts from all over the world can communicate and exchange here, or join us to make MasterAI bigger and stronger together. Please feel free to contact us at Telegram：@alibaba401
+The Master team is constantly exploring the innovation of AI algorithm, and hoping that like-minded technical experts from all over the world can communicate and exchange here, or join us to make MasterAI bigger and stronger together. Please feel free to contact us at 
