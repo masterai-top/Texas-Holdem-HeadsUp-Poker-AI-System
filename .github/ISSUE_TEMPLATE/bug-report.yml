@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a reproducible defect in the public research code
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Do not include credentials, private game data, production logs, or undisclosed vulnerabilities. Follow SECURITY.md for security reports.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the defect and affected component.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction
+      description: Include the commit, configuration, seed, environment, and minimal steps.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true

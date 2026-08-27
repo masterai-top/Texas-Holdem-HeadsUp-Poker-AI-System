@@ -1,0 +1,29 @@
+name: Research result
+description: Share a reproducible training or evaluation result
+title: "[Result]: "
+labels:
+  - research
+body:
+  - type: markdown
+    attributes:
+      value: Follow BENCHMARKS.md and REPRODUCIBILITY.md. Remove secrets and private data.
+  - type: textarea
+    id: setup
+    attributes:
+      label: Commit, configuration, and environment
+    validations:
+      required: true
+  - type: textarea
+    id: protocol
+    attributes:
+      label: Game and evaluation protocol
+      description: Include opponent, rules, stack depth, hands, seeds, seat rotation, and metrics.
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Results and uncertainty
+      description: Include confidence intervals, raw-log location, resource use, and known limitations.
+    validations:
+      required: true
