@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CFR Poker AI 基准测试 | 可复现评估规范</title><meta name="description" content="德州扑克 AI benchmark 规范：提交版本、对手、规则、样本量、随机种子、硬件、mbb/g、置信区间、延迟和原始日志。"><link rel="canonical" href="https://masterai-top.github.io/cfr-poker-ai-masterai/benchmarks.html"><link rel="stylesheet" href="assets/styles.css"></head>
+<body>
+  <header class="site-header"><nav class="nav" aria-label="主导航"><a class="brand" href="index.html">MasterAI Poker AI</a><div class="nav-links"><a href="technology.html">技术</a><a href="benchmarks.html">基准</a><a href="responsible-use.html">负责任使用</a><a href="https://github.com/masterai-top/cfr-poker-ai-masterai">GitHub</a></div></nav></header>
+  <main><section class="page-hero"><div class="container"><p class="eyebrow">Reproducible Evaluation</p><h1>德州扑克 AI 基准测试必须可复现</h1><p>单一胜率无法说明规则、样本量、价值差异或统计不确定性。</p></div></section>
+  <section class="band white"><div class="container content-grid"><nav class="toc" aria-label="本页目录"><strong>本页内容</strong><a href="#status">当前状态</a><a href="#metadata">实验信息</a><a href="#metrics">指标</a><a href="#report">报告模板</a></nav><div class="prose">
+    <section id="status"><h2>当前项目报告结果</h2><table><thead><tr><th>对手</th><th>原 README 报告胜率</th><th>状态</th></tr></thead><tbody><tr><td>Random Bot</td><td>85%</td><td>未在本次文档更新中独立复现</td></tr><tr><td>Rule-based AI</td><td>72%</td><td>未在本次文档更新中独立复现</td></tr><tr><td>CFR Baseline</td><td>58%</td><td>未在本次文档更新中独立复现</td></tr></tbody></table><div class="notice">在方法、原始日志和统计区间发布前，这些数字只能标注为项目报告结果，不能作为独立验证结论。</div></section>
+    <section id="metadata"><h2>每次实验必须记录</h2><ul><li>提交哈希、工作区状态、模型与配置哈希</li><li>游戏规则、盲注、筹码深度、动作抽象和下注尺度</li><li>对手实现、版本、适应行为和座位轮换</li><li>牌局数、重复发牌协议、随机种子和排除规则</li><li>CPU、GPU、内存、线程、依赖和总计算预算</li></ul></section>
+    <section id="metrics"><h2>推荐指标</h2><table><thead><tr><th>指标</th><th>用途</th></tr></thead><tbody><tr><td>mbb/g 或 bb/100</td><td>衡量以盲注归一化的价值表现</td></tr><tr><td>95% 置信区间</td><td>表达有限样本的不确定性</td></tr><tr><td>Mean / p95 latency</td><td>衡量平均和尾部决策延迟</td></tr><tr><td>Peak memory</td><td>衡量模型与搜索资源需求</td></tr><tr><td>Exploitability</td><td>在可计算或可近似时评估策略弱点</td></tr></tbody></table></section>
+    <section id="report"><h2>公开报告</h2><p>研究报告应同时发布方法、原始日志、失败运行、负面结果和已知限制。完整清单位于仓库的 <a href="https://github.com/masterai-top/cfr-poker-ai-masterai/blob/main/BENCHMARKS.md">BENCHMARKS.md</a> 与 <a href="https://github.com/masterai-top/cfr-poker-ai-masterai/blob/main/REPRODUCIBILITY.md">REPRODUCIBILITY.md</a>。</p></section>
+  </div></div></section></main>
+  <footer class="site-footer"><div class="container">MasterAI · <a href="index.html">项目主页</a> · <a href="https://github.com/masterai-top">GitHub Profile</a></div></footer>
+</body></html>

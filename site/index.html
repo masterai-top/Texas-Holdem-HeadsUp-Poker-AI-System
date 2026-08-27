@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MasterAI CFR 德州扑克 AI | HUNL 博弈研究系统</title>
+  <meta name="description" content="MasterAI v3.0 CFR 德州扑克 AI 研究系统，涵盖 HUNL、反事实遗憾最小化、自我博弈强化学习、深度神经网络、反事实价值和在线重解。">
+  <link rel="canonical" href="https://masterai-top.github.io/cfr-poker-ai-masterai/">
+  <meta property="og:title" content="MasterAI CFR Poker AI Research System">
+  <meta property="og:description" content="CFR、强化学习、神经价值估计和在线策略重解的 HUNL 研究项目。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://masterai-top.github.io/cfr-poker-ai-masterai/">
+  <meta property="og:image" content="https://masterai-top.github.io/cfr-poker-ai-masterai/assets/screenshots/professional-matchup.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareSourceCode",
+    "name": "MasterAI v3.0 CFR Poker AI Research System",
+    "alternateName": "MasterAI CFR 德州扑克 AI",
+    "codeRepository": "https://github.com/masterai-top/cfr-poker-ai-masterai",
+    "programmingLanguage": ["C++", "Python"],
+    "license": "https://www.apache.org/licenses/LICENSE-2.0",
+    "description": "A Heads-Up No-Limit Texas Hold'em research system using CFR-family methods, reinforcement learning, value estimation, and online decision components.",
+    "author": {"@type": "Organization", "name": "MasterAI", "url": "https://github.com/masterai-top"}
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header"><nav class="nav" aria-label="主导航"><a class="brand" href="index.html">MasterAI Poker AI</a><div class="nav-links"><a href="technology.html">技术</a><a href="benchmarks.html">基准</a><a href="responsible-use.html">负责任使用</a><a href="https://github.com/masterai-top/cfr-poker-ai-masterai">GitHub</a></div></nav></header>
+  <main>
+    <section class="hero">
+      <img class="hero-media" src="assets/screenshots/professional-matchup.jpg" alt="MasterAI 德州扑克 AI 与职业牌手对局展示">
+      <div class="hero-inner"><p class="eyebrow">CFR · Reinforcement Learning · Search</p><h1>MasterAI CFR 德州扑克 AI</h1><p>面向 HUNL 非完美信息博弈的研究系统，覆盖 CFR、自我博弈、神经价值估计、策略搜索和工程化服务组件。</p><div class="actions"><a class="button" href="technology.html">查看技术架构</a><a class="button secondary" href="https://github.com/masterai-top/cfr-poker-ai-masterai">查看研究代码</a></div></div>
+    </section>
+    <section class="band white"><div class="container"><p class="eyebrow">Research Scope</p><h2>从反事实遗憾到在线决策</h2><p class="lead">项目结合 C++ 核心计算和 Python 训练编排，包含扑克规则、反事实价值、强化学习、机器人策略、IPC、Protobuf、Redis、测试和 benchmark 目录。</p><div class="metrics"><div class="metric"><strong>HUNL</strong><span>两人无限注德州扑克</span></div><div class="metric"><strong>C++ / Python</strong><span>计算与训练组件</span></div><div class="metric"><strong>CFR</strong><span>反事实遗憾最小化</span></div><div class="metric"><strong>Self-Play</strong><span>自我博弈研究</span></div></div></div></section>
+    <section class="band"><div class="container"><p class="eyebrow">Core Components</p><h2>主要研究模块</h2><div class="research-grid"><article class="research-item"><strong>Game Theory</strong><h3>CFR 与策略平均</h3><p>围绕遗憾匹配、博弈树、抽象和策略生成组织核心计算。</p></article><article class="research-item"><strong>Value Estimation</strong><h3>反事实价值计算</h3><p>通过 CFV 和神经价值组件估计状态与行动的长期价值。</p></article><article class="research-item"><strong>Learning</strong><h3>自我博弈与强化学习</h3><p>结合监督策略、对手策略和训练编排探索策略改进。</p></article><article class="research-item"><strong>Online Decision</strong><h3>搜索与持续重解</h3><p>基于公共状态和局部搜索思路生成当前决策。</p></article><article class="research-item"><strong>Evaluation</strong><h3>测试与 benchmark</h3><p>分离项目报告结果与可复现结果，记录版本、配置和统计不确定性。</p></article><article class="research-item"><strong>Systems</strong><h3>服务与通信组件</h3><p>涵盖 IPC、Protobuf、Redis、房间逻辑和 Python 服务脚本。</p></article></div></div></section>
+    <section class="band dark"><div class="container"><p class="eyebrow">Decision Pipeline</p><h2>研究链路</h2><p class="lead">具体收敛性和性能取决于实现、抽象、函数逼近、训练过程与评估协议。</p><div class="pipeline"><div class="pipeline-step"><h3>游戏状态</h3><p>规则、历史和公共信息。</p></div><div class="pipeline-step"><h3>CFR / 搜索</h3><p>遗憾更新与局部策略。</p></div><div class="pipeline-step"><h3>价值估计</h3><p>反事实价值与模型输出。</p></div><div class="pipeline-step"><h3>动作选择</h3><p>根据策略分布生成行动。</p></div><div class="pipeline-step"><h3>评估</h3><p>对手、指标和可复现日志。</p></div></div></div></section>
+    <section class="band white"><div class="container"><p class="eyebrow">Project Evidence</p><h2>项目截图</h2><div class="gallery"><figure><img loading="lazy" src="assets/screenshots/training-config.png" alt="MasterAI CFR 训练配置终端"><figcaption>CFR 训练参数配置</figcaption></figure><figure><img loading="lazy" src="assets/screenshots/platform-support.png" alt="MasterAI 支持的德州扑克平台列表"><figcaption>项目报告的平台对接范围</figcaption></figure><figure><img loading="lazy" src="assets/screenshots/professional-matchup.jpg" alt="MasterAI 与职业牌手对局结果展示"><figcaption>项目报告的对局展示</figcaption></figure><figure><img loading="lazy" src="assets/screenshots/player-profiles.png" alt="项目展示的职业牌手资料"><figcaption>项目展示的牌手资料</figcaption></figure></div></div></section>
+    <section class="band green"><div class="container"><h2>结果必须可复现，使用必须负责任</h2><p class="lead">性能数字应附带提交版本、配置、种子、对手、手数、硬件、置信区间和原始日志。</p><div class="actions"><a class="button" href="benchmarks.html">查看基准规范</a><a class="button secondary" href="responsible-use.html">查看使用原则</a></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container">MasterAI · <a href="https://github.com/masterai-top">GitHub Profile</a> · <a href="mailto:masterai918@gmail.com">Research Contact</a></div></footer>
+</body>
+</html>

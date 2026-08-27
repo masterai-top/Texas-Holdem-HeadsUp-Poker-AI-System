@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software in research, cite the repository and the exact commit used."
+title: "MasterAI v3.0: CFR Poker AI Research System"
+type: software
+authors:
+  - family-names: "Team"
+    given-names: "MasterAI"
+version: "3.0"
+license: Apache-2.0
+repository-code: "https://github.com/masterai-top/cfr-poker-ai-masterai"
+url: "https://masterai-top.github.io/cfr-poker-ai-masterai/"
+abstract: "A research system for Heads-Up No-Limit Texas Hold'em using CFR-family methods, reinforcement learning, neural value estimation, and online decision components."
+keywords:
+  - counterfactual regret minimization
+  - poker artificial intelligence
+  - heads-up no-limit texas holdem
+  - imperfect-information games
+  - reinforcement learning
+contact:
+  - family-names: "Team"
+    given-names: "MasterAI"
+    email: "masterai918@gmail.com"

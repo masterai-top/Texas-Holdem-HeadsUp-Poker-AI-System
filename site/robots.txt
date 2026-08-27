@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://masterai-top.github.io/cfr-poker-ai-masterai/sitemap.xml

@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CFR 德州扑克 AI 技术 | HUNL、强化学习与在线重解</title><meta name="description" content="MasterAI CFR 德州扑克 AI 的研究组件：HUNL、反事实遗憾最小化、反事实价值、强化学习、搜索、C++ 和 Python。"><link rel="canonical" href="https://masterai-top.github.io/cfr-poker-ai-masterai/technology.html"><link rel="stylesheet" href="assets/styles.css"></head>
+<body>
+  <header class="site-header"><nav class="nav" aria-label="主导航"><a class="brand" href="index.html">MasterAI Poker AI</a><div class="nav-links"><a href="technology.html">技术</a><a href="benchmarks.html">基准</a><a href="responsible-use.html">负责任使用</a><a href="https://github.com/masterai-top/cfr-poker-ai-masterai">GitHub</a></div></nav></header>
+  <main><section class="page-hero"><div class="container"><p class="eyebrow">Technology</p><h1>CFR、价值估计与在线策略决策</h1><p>基于公开仓库结构梳理的研究组件，不替代代码级算法审计或论文证明。</p></div></section>
+  <section class="band white"><div class="container content-grid"><nav class="toc" aria-label="本页目录"><strong>本页内容</strong><a href="#game">博弈模型</a><a href="#cfr">CFR</a><a href="#learning">学习组件</a><a href="#systems">工程组件</a></nav><div class="prose">
+    <section id="game"><h2>HUNL 博弈模型</h2><p>Heads-Up No-Limit Texas Hold'em 是两人、零和、非完美信息博弈。玩家无法观察对方底牌，行动历史、公共牌、下注尺度和筹码深度共同定义决策状态。</p></section>
+    <section id="cfr"><h2>反事实遗憾最小化</h2><p>CFR 通过反复遍历博弈并更新信息集上的反事实遗憾，形成平均策略。标准理论结果依赖有限两人零和博弈等条件；抽象、采样、剪枝和函数逼近会改变实际性质。</p><table><thead><tr><th>组件</th><th>作用</th></tr></thead><tbody><tr><td>Game tree</td><td>表达公共状态、私有信息和合法动作</td></tr><tr><td>Regret matching</td><td>根据累计正遗憾形成当前策略</td></tr><tr><td>Average strategy</td><td>聚合训练过程中的策略质量</td></tr><tr><td>CFV</td><td>估计特定玩家在反事实条件下的价值</td></tr></tbody></table></section>
+    <section id="learning"><h2>强化学习与神经价值</h2><p>`rela/`、`supervised_strategy/`、`cfv/` 和训练入口展示了强化学习、监督策略及价值估计的工程边界。具体网络、损失、采样和更新方法应以所用提交和配置为准。</p><div class="research-note">不要把“使用深度网络”自动等同于超人水平或收敛。研究结论必须来自匹配的对手、规则、样本量和统计分析。</div></section>
+    <section id="systems"><h2>系统工程组件</h2><p>C++ 用于核心计算与博弈结构，Python 负责编排和服务入口；仓库还包含 IPC、Protobuf、Redis、房间逻辑、测试和 benchmark。上线前应独立审计网络、配置、进程、模型加载和资源隔离。</p><p><a class="button" href="benchmarks.html">查看基准报告要求</a></p></section>
+  </div></div></section></main>
+  <footer class="site-footer"><div class="container">MasterAI · <a href="index.html">项目主页</a> · <a href="https://github.com/masterai-top">GitHub Profile</a></div></footer>
+</body></html>
