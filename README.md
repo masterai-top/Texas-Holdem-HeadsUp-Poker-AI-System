@@ -135,6 +135,12 @@ python run.py --self_play --hands 100
 <img width="379" height="447" alt="微信图片_20241030112757" src="https://github.com/user-attachments/assets/3979385c-cebc-47df-aadf-a317dd3eb021" />
 
 
+## MasterAI 德州扑克生态
+
+- [MasterAI 游戏项目主页](https://github.com/masterai-top)
+- [德州俱乐部](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
+- [德州扑克赛事平台](https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform)
+- [德州金币大厅](https://github.com/masterai-top/Texas-Holdem-Poker-Game-Server-Club-Source-Code)
 
 
 ###  问题反馈与交流
