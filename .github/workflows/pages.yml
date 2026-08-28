@@ -2,11 +2,7 @@ name: Deploy GitHub Pages
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - "site/**"
-      - ".github/workflows/pages.yml"
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -16,7 +12,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -24,6 +20,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,10 +28,10 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload Pages artifact
+      - name: Upload docs folder
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
+          path: docs
 
       - name: Deploy to GitHub Pages
         id: deployment
