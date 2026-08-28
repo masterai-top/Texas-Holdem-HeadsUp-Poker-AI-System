@@ -115,7 +115,8 @@ deploy.sh               部署辅助脚本
 - [MasterAI 项目主页](https://github.com/masterai-top)
 - [德州扑克完整解决方案](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
 - [德州扑克赛事平台](https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform)
-- [德州金币大厅与俱乐部系统](https://github.com/masterai-top/Texas-Holdem-Poker-Game-Server-Club-Source-Code)
+- [德州扑克金币大厅](https://github.com/masterai-top/Texas-Hold-em-Points-Lobby)
+
 
 ## 许可证与使用责任
 
