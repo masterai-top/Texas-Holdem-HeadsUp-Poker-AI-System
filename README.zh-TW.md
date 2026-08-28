@@ -115,7 +115,7 @@ deploy.sh               部署輔助指令碼
 - [MasterAI 專案主頁](https://github.com/masterai-top)
 - [德州撲克完整解決方案](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
 - [德州撲克賽事平台](https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform)
-- [德州撲克遊戲伺服器與俱樂部系統](https://github.com/masterai-top/Texas-Holdem-Poker-Game-Server-Club-Source-Code)
+- [德州积分大厅](https://github.com/masterai-top/Texas-Hold-em-Points-Lobby)
 
 ## 授權與使用責任
 
