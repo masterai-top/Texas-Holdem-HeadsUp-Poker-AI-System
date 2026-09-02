@@ -1,13 +1,6 @@
-[简体中文](README.md) | [English](README.en.md) | [繁體中文](README.zh-TW.md)
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-# cfr-poker-ai-masterai
-
-CFR poker AI research project for heads-up no-limit Texas Hold'em strategy training and evaluation in C++. This document preserves the project's existing features, architecture, screenshots and usage notes; the repository contents remain authoritative.
-
-> Validate features, performance, operational history and deployment requirements against the current version. License and third-party asset terms are defined by repository files.
-
-
-
+# MasterAI v3.0: CFR Poker AI Research System
 
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![C++](https://img.shields.io/badge/C%2B%2B-CFR%20Engine-00599C)](csrc/)
@@ -171,4 +164,3 @@ The root [LICENSE](LICENSE) contains Apache License 2.0. The repository also con
 
 
 If this project supports your research, cite it using [CITATION.cff](CITATION.cff) and record the exact commit you used.
-

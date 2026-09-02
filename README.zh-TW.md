@@ -1,13 +1,6 @@
-[简体中文](README.md) | [English](README.en.md) | [繁體中文](README.zh-TW.md)
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-# CFR 撲克 AI 主倉庫 | cfr-poker-ai-masterai
-
-本專案聚焦CFR 撲克 AI 主倉庫，保留線上現有 README 的功能、架構、截圖與使用說明，並以倉庫實際程式碼為準。
-
-> 專案功能、效能、營運記錄與部署能力應結合目前版本獨立驗證；授權與第三方素材範圍以倉庫檔案為準。
-
-
-
+# MasterAI v3.0：CFR 德州撲克 AI 研究系統
 
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![C++](https://img.shields.io/badge/C%2B%2B-CFR%20Engine-00599C)](csrc/)
@@ -171,4 +164,3 @@ deploy.sh               部署輔助指令碼
 
 
 如果本專案對你的研究有幫助，請在論文或技術報告中依照 [CITATION.cff](CITATION.cff) 引用，並記錄實際使用的提交版本。
-
