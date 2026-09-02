@@ -1,4 +1,4 @@
-# MasterAI v3.0：CFR| 德州扑克 AI 研究系统|CFR 扑克 AI 主仓库 | cfr-poker-ai-masterai
+# MasterAI v3.0：CFR| 德州扑克 AI 研究系统|CFR 德州AI | cfr-poker-ai-masterai
 
 **简体中文** | [English](README.en.md) | [繁體中文](README.zh-TW.md)
 
