@@ -1,17 +1,28 @@
-# MasterAI v3.0：CFR 德州撲克 AI 研究系統
+[简体中文](README.md) | [English](README.en.md) | [繁體中文](README.zh-TW.md)
 
-[簡體中文](README.md) | [English](README.en.md) | **繁體中文**
+# CFR 撲克 AI 主倉庫 | cfr-poker-ai-masterai
+
+本專案聚焦CFR 撲克 AI 主倉庫，保留線上現有 README 的功能、架構、截圖與使用說明，並以倉庫實際程式碼為準。
+
+> 專案功能、效能、營運記錄與部署能力應結合目前版本獨立驗證；授權與第三方素材範圍以倉庫檔案為準。
+
+
+
 
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 [![C++](https://img.shields.io/badge/C%2B%2B-CFR%20Engine-00599C)](csrc/)
 [![Python](https://img.shields.io/badge/Python-Training%20%26%20Evaluation-3776AB)](main.py)
 [![Research](https://img.shields.io/badge/Use-Research%20%26%20Education-0F6B54)](RESPONSIBLE-USE.md)
 
+
 MasterAI v3.0 是面向**單挑無限注德州撲克（Heads-Up No-Limit Texas Hold'em，HUNL）**的博弈 AI 研究專案，聚焦於反事實遺憾最小化（CFR）、自我博弈強化學習、深度神經網路、反事實價值計算和線上策略重解。
+
 
 > 本專案用於博弈論、非完美資訊博弈和多智能體決策研究。請勿將其用於違反適用法律、平台規則或第三方權利的活動。
 
+
 ## 專案範圍
+
 
 | 方向 | 儲存庫中的相關內容 |
 | --- | --- |
@@ -23,7 +34,9 @@ MasterAI v3.0 是面向**單挑無限注德州撲克（Heads-Up No-Limit Texas H
 | 服務整合 | `ipc/`、`proto/`、`redis/`、房間邏輯和 Python 服務指令碼 |
 | 評估 | `benchmark/`、`tests/` 與專案報告的效能指標 |
 
+
 ## 核心技術
+
 
 | 模組 | 研究方案 |
 | --- | --- |
@@ -34,9 +47,12 @@ MasterAI v3.0 是面向**單挑無限注德州撲克（Heads-Up No-Limit Texas H
 | 線上決策 | 公共狀態建模、局部搜尋與持續重解概念 |
 | 工程實作 | C++ 核心計算、Python 編排、IPC、Protobuf 與 Redis 元件 |
 
+
 標準表格型 CFR 在符合條件的有限兩人零和博弈中具有遺憾收斂性質。導入函數近似、抽象、剪枝和線上搜尋後，具體收斂性與效能取決於實作、訓練過程和評估協定，不能僅由演算法名稱推斷。
 
+
 ## 系統結構
+
 
 ```mermaid
 flowchart LR
@@ -47,6 +63,7 @@ flowchart LR
     E --> A
     F[Self-Play and Evaluation] --> D
 ```
+
 
 ```text
 benchmark/              基準評估
@@ -68,9 +85,12 @@ train.sh                訓練指令碼
 deploy.sh               部署輔助指令碼
 ```
 
+
 ## 基準結果說明
 
+
 先前 README 曾報告以下結果：
+
 
 | 對手 | 專案報告勝率 |
 | --- | ---: |
@@ -78,13 +98,18 @@ deploy.sh               部署輔助指令碼
 | Rule-based AI | 72% |
 | CFR Baseline | 58% |
 
+
 這些數值是**儲存庫原有文件中的專案報告結果，並非本次整理獨立重現的結論**。引用或比較前，應補齊提交版本、隨機種子、對手實作、盲注、籌碼深度、牌局數、硬體、信賴區間和原始日誌。詳見 [BENCHMARKS.md](BENCHMARKS.md) 與 [REPRODUCIBILITY.md](REPRODUCIBILITY.md)。
+
 
 ## 開始評估
 
+
 本儲存庫同時包含 C++、Python、Shell、Protobuf、Redis 和多組歷史元件。未確認相依套件與參數前，請勿將範例命令直接用於正式環境。
 
+
 建議依照以下順序評估：
+
 
 1. 閱讀 `LICENSE`、設定目錄和各指令碼內容。
 2. 建立隔離的 Linux 測試環境，並確認 Python、C++ 編譯器、CMake、PyTorch、Redis 和第三方函式庫版本。
@@ -92,17 +117,24 @@ deploy.sh               部署輔助指令碼
 4. 先執行最小測試和小規模 benchmark，再評估完整訓練資源。
 5. 記錄提交雜湊、設定、種子、硬體、資料、模型和原始輸出。
 
+
 ## 專案截圖
+
 
 <img width="340" alt="MasterAI Poker AI interface" src="https://github.com/user-attachments/assets/66851632-7b29-4fc3-a35c-76dee4e5930d">
 
+
 <img width="900" alt="MasterAI poker AI analysis interface" src="https://github.com/user-attachments/assets/5fa3a0e8-0326-48a1-944a-bf497f0027ac">
+
 
 <img width="900" alt="Texas Hold'em AI strategy visualization" src="https://github.com/user-attachments/assets/8cba978a-8a2f-4310-b650-d96adf1dd633">
 
+
 <img width="500" alt="Poker AI decision analysis" src="https://github.com/user-attachments/assets/3979385c-cebc-47df-aadf-a317dd3eb021">
 
+
 ## 研究資料
+
 
 - [基準報告規範](BENCHMARKS.md)
 - [可重現性清單](REPRODUCIBILITY.md)
@@ -110,24 +142,33 @@ deploy.sh               部署輔助指令碼
 - [引用資訊](CITATION.cff)
 - [專案技術網站](https://masterai-top.github.io/cfr-poker-ai-masterai/)
 
+
 ## MasterAI 德州撲克生態
+
 
 - [MasterAI 專案主頁](https://github.com/masterai-top)
 - [德州撲克完整解決方案](https://github.com/masterai-top/TexasHoldem-Poker-Complete-Solution)
 - [德州撲克賽事平台](https://github.com/masterai-top/Texas-Holdem-Poker-Tournament-Event-Platform)
 - [德州积分大厅](https://github.com/masterai-top/Texas-Hold-em-Points-Lobby)
 
+
 ## 授權與使用責任
+
 
 根目錄 [LICENSE](LICENSE) 是 Apache License 2.0。儲存庫還存在內容為 MIT License 的 `License.md`，兩者會造成授權歧義；維護者應在法律審查後明確唯一適用的授權。
 
+
 [RESPONSIBLE-USE.md](RESPONSIBLE-USE.md) 是使用政策和風險提示，不修改 Apache-2.0 授予的權利。使用者仍須遵守適用法律、平台規則、隱私和資料保護要求。
 
+
 ## 聯絡與貢獻
+
 
 - [貢獻指南](CONTRIBUTING.md)
 - [安全回報](SECURITY.md)
 - Telegram：[@xuzongbin001](https://t.me/xuzongbin001)
 - Email：[masterai918@gmail.com](mailto:masterai918@gmail.com)
 
+
 如果本專案對你的研究有幫助，請在論文或技術報告中依照 [CITATION.cff](CITATION.cff) 引用，並記錄實際使用的提交版本。
+
