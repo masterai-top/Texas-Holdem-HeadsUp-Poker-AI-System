@@ -1,4 +1,4 @@
-# MasterAI v3.0：CFR 德州扑克 AI 研究系统
+# MasterAI v3.0：CFR| 德州扑克 AI 研究系统|CFR 扑克 AI 主仓库 | cfr-poker-ai-masterai
 
 **简体中文** | [English](README.en.md) | [繁體中文](README.zh-TW.md)
 
@@ -7,6 +7,11 @@
 [![Python](https://img.shields.io/badge/Python-Training%20%26%20Evaluation-3776AB)](main.py)
 [![Research](https://img.shields.io/badge/Use-Research%20%26%20Education-0F6B54)](RESPONSIBLE-USE.md)
 
+
+本项目聚焦CFR 扑克 AI 主仓库，保留线上现有 README 的功能、架构、截图与使用说明，并以仓库实际代码为准。
+
+> 项目功能、性能、运营记录与部署能力应结合当前版本独立验证；许可证和第三方素材范围以仓库文件为准。
+> 
 MasterAI v3.0 是面向**单挑无限注德州扑克（Heads-Up No-Limit Texas Hold'em，HUNL）**的博弈 AI 研究项目，围绕反事实遗憾最小化（CFR）、自我博弈强化学习、深度神经网络、反事实价值计算和在线策略重解展开。
 
 > 本项目用于博弈论、非完美信息博弈和多智能体决策研究。请勿将其用于违反适用法律、平台规则或第三方权利的活动。
